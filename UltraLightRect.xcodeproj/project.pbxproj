@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F35569561CD97F3C00FD7DB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F35569551CD97F3C00FD7DB7 /* main.m */; };
+		F35569591CD97F3C00FD7DB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F35569581CD97F3C00FD7DB7 /* AppDelegate.m */; };
+		F355695C1CD97F3C00FD7DB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F355695B1CD97F3C00FD7DB7 /* ViewController.m */; };
+		F355695F1CD97F3C00FD7DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F355695D1CD97F3C00FD7DB7 /* Main.storyboard */; };
+		F35569611CD97F3C00FD7DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35569601CD97F3C00FD7DB7 /* Assets.xcassets */; };
+		F35569641CD97F3C00FD7DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35569621CD97F3C00FD7DB7 /* LaunchScreen.storyboard */; };
+		F355696F1CD97F3D00FD7DB7 /* UltraLightRectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F355696E1CD97F3D00FD7DB7 /* UltraLightRectTests.m */; };
+		F355697A1CD97F3D00FD7DB7 /* UltraLightRectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F35569791CD97F3D00FD7DB7 /* UltraLightRectUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F355696B1CD97F3D00FD7DB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35569491CD97F3C00FD7DB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35569501CD97F3C00FD7DB7;
+			remoteInfo = UltraLightRect;
+		};
+		F35569761CD97F3D00FD7DB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35569491CD97F3C00FD7DB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35569501CD97F3C00FD7DB7;
+			remoteInfo = UltraLightRect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F35569511CD97F3C00FD7DB7 /* UltraLightRect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltraLightRect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35569551CD97F3C00FD7DB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F35569571CD97F3C00FD7DB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F35569581CD97F3C00FD7DB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F355695A1CD97F3C00FD7DB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F355695B1CD97F3C00FD7DB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F355695E1CD97F3C00FD7DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F35569601CD97F3C00FD7DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F35569631CD97F3C00FD7DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F35569651CD97F3C00FD7DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F355696A1CD97F3D00FD7DB7 /* UltraLightRectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltraLightRectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F355696E1CD97F3D00FD7DB7 /* UltraLightRectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UltraLightRectTests.m; sourceTree = "<group>"; };
+		F35569701CD97F3D00FD7DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35569751CD97F3D00FD7DB7 /* UltraLightRectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltraLightRectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35569791CD97F3D00FD7DB7 /* UltraLightRectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UltraLightRectUITests.m; sourceTree = "<group>"; };
+		F355697B1CD97F3D00FD7DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F355694E1CD97F3C00FD7DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35569671CD97F3D00FD7DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35569721CD97F3D00FD7DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F35569481CD97F3C00FD7DB7 = {
+			isa = PBXGroup;
+			children = (
+				F35569531CD97F3C00FD7DB7 /* UltraLightRect */,
+				F355696D1CD97F3D00FD7DB7 /* UltraLightRectTests */,
+				F35569781CD97F3D00FD7DB7 /* UltraLightRectUITests */,
+				F35569521CD97F3C00FD7DB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F35569521CD97F3C00FD7DB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F35569511CD97F3C00FD7DB7 /* UltraLightRect.app */,
+				F355696A1CD97F3D00FD7DB7 /* UltraLightRectTests.xctest */,
+				F35569751CD97F3D00FD7DB7 /* UltraLightRectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F35569531CD97F3C00FD7DB7 /* UltraLightRect */ = {
+			isa = PBXGroup;
+			children = (
+				F35569571CD97F3C00FD7DB7 /* AppDelegate.h */,
+				F35569581CD97F3C00FD7DB7 /* AppDelegate.m */,
+				F355695A1CD97F3C00FD7DB7 /* ViewController.h */,
+				F355695B1CD97F3C00FD7DB7 /* ViewController.m */,
+				F355695D1CD97F3C00FD7DB7 /* Main.storyboard */,
+				F35569601CD97F3C00FD7DB7 /* Assets.xcassets */,
+				F35569621CD97F3C00FD7DB7 /* LaunchScreen.storyboard */,
+				F35569651CD97F3C00FD7DB7 /* Info.plist */,
+				F35569541CD97F3C00FD7DB7 /* Supporting Files */,
+			);
+			path = UltraLightRect;
+			sourceTree = "<group>";
+		};
+		F35569541CD97F3C00FD7DB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F35569551CD97F3C00FD7DB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F355696D1CD97F3D00FD7DB7 /* UltraLightRectTests */ = {
+			isa = PBXGroup;
+			children = (
+				F355696E1CD97F3D00FD7DB7 /* UltraLightRectTests.m */,
+				F35569701CD97F3D00FD7DB7 /* Info.plist */,
+			);
+			path = UltraLightRectTests;
+			sourceTree = "<group>";
+		};
+		F35569781CD97F3D00FD7DB7 /* UltraLightRectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F35569791CD97F3D00FD7DB7 /* UltraLightRectUITests.m */,
+				F355697B1CD97F3D00FD7DB7 /* Info.plist */,
+			);
+			path = UltraLightRectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F35569501CD97F3C00FD7DB7 /* UltraLightRect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F355697E1CD97F3D00FD7DB7 /* Build configuration list for PBXNativeTarget "UltraLightRect" */;
+			buildPhases = (
+				F355694D1CD97F3C00FD7DB7 /* Sources */,
+				F355694E1CD97F3C00FD7DB7 /* Frameworks */,
+				F355694F1CD97F3C00FD7DB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UltraLightRect;
+			productName = UltraLightRect;
+			productReference = F35569511CD97F3C00FD7DB7 /* UltraLightRect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F35569691CD97F3D00FD7DB7 /* UltraLightRectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35569811CD97F3D00FD7DB7 /* Build configuration list for PBXNativeTarget "UltraLightRectTests" */;
+			buildPhases = (
+				F35569661CD97F3D00FD7DB7 /* Sources */,
+				F35569671CD97F3D00FD7DB7 /* Frameworks */,
+				F35569681CD97F3D00FD7DB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F355696C1CD97F3D00FD7DB7 /* PBXTargetDependency */,
+			);
+			name = UltraLightRectTests;
+			productName = UltraLightRectTests;
+			productReference = F355696A1CD97F3D00FD7DB7 /* UltraLightRectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F35569741CD97F3D00FD7DB7 /* UltraLightRectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35569841CD97F3D00FD7DB7 /* Build configuration list for PBXNativeTarget "UltraLightRectUITests" */;
+			buildPhases = (
+				F35569711CD97F3D00FD7DB7 /* Sources */,
+				F35569721CD97F3D00FD7DB7 /* Frameworks */,
+				F35569731CD97F3D00FD7DB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35569771CD97F3D00FD7DB7 /* PBXTargetDependency */,
+			);
+			name = UltraLightRectUITests;
+			productName = UltraLightRectUITests;
+			productReference = F35569751CD97F3D00FD7DB7 /* UltraLightRectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F35569491CD97F3C00FD7DB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jason Dwyer";
+				TargetAttributes = {
+					F35569501CD97F3C00FD7DB7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F35569691CD97F3D00FD7DB7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F35569501CD97F3C00FD7DB7;
+					};
+					F35569741CD97F3D00FD7DB7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F35569501CD97F3C00FD7DB7;
+					};
+				};
+			};
+			buildConfigurationList = F355694C1CD97F3C00FD7DB7 /* Build configuration list for PBXProject "UltraLightRect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F35569481CD97F3C00FD7DB7;
+			productRefGroup = F35569521CD97F3C00FD7DB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F35569501CD97F3C00FD7DB7 /* UltraLightRect */,
+				F35569691CD97F3D00FD7DB7 /* UltraLightRectTests */,
+				F35569741CD97F3D00FD7DB7 /* UltraLightRectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F355694F1CD97F3C00FD7DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35569641CD97F3C00FD7DB7 /* LaunchScreen.storyboard in Resources */,
+				F35569611CD97F3C00FD7DB7 /* Assets.xcassets in Resources */,
+				F355695F1CD97F3C00FD7DB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35569681CD97F3D00FD7DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35569731CD97F3D00FD7DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F355694D1CD97F3C00FD7DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F355695C1CD97F3C00FD7DB7 /* ViewController.m in Sources */,
+				F35569591CD97F3C00FD7DB7 /* AppDelegate.m in Sources */,
+				F35569561CD97F3C00FD7DB7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35569661CD97F3D00FD7DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F355696F1CD97F3D00FD7DB7 /* UltraLightRectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35569711CD97F3D00FD7DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F355697A1CD97F3D00FD7DB7 /* UltraLightRectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F355696C1CD97F3D00FD7DB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35569501CD97F3C00FD7DB7 /* UltraLightRect */;
+			targetProxy = F355696B1CD97F3D00FD7DB7 /* PBXContainerItemProxy */;
+		};
+		F35569771CD97F3D00FD7DB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35569501CD97F3C00FD7DB7 /* UltraLightRect */;
+			targetProxy = F35569761CD97F3D00FD7DB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F355695D1CD97F3C00FD7DB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F355695E1CD97F3C00FD7DB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F35569621CD97F3C00FD7DB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35569631CD97F3C00FD7DB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F355697C1CD97F3D00FD7DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F355697D1CD97F3D00FD7DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F355697F1CD97F3D00FD7DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UltraLightRect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vexacore.UltraLightRect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F35569801CD97F3D00FD7DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UltraLightRect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vexacore.UltraLightRect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F35569821CD97F3D00FD7DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UltraLightRectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vexacore.UltraLightRectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UltraLightRect.app/UltraLightRect";
+			};
+			name = Debug;
+		};
+		F35569831CD97F3D00FD7DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UltraLightRectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vexacore.UltraLightRectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UltraLightRect.app/UltraLightRect";
+			};
+			name = Release;
+		};
+		F35569851CD97F3D00FD7DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UltraLightRectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vexacore.UltraLightRectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UltraLightRect;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F35569861CD97F3D00FD7DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UltraLightRectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vexacore.UltraLightRectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UltraLightRect;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F355694C1CD97F3C00FD7DB7 /* Build configuration list for PBXProject "UltraLightRect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F355697C1CD97F3D00FD7DB7 /* Debug */,
+				F355697D1CD97F3D00FD7DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F355697E1CD97F3D00FD7DB7 /* Build configuration list for PBXNativeTarget "UltraLightRect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F355697F1CD97F3D00FD7DB7 /* Debug */,
+				F35569801CD97F3D00FD7DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F35569811CD97F3D00FD7DB7 /* Build configuration list for PBXNativeTarget "UltraLightRectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35569821CD97F3D00FD7DB7 /* Debug */,
+				F35569831CD97F3D00FD7DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F35569841CD97F3D00FD7DB7 /* Build configuration list for PBXNativeTarget "UltraLightRectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35569851CD97F3D00FD7DB7 /* Debug */,
+				F35569861CD97F3D00FD7DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F35569491CD97F3C00FD7DB7 /* Project object */;
+}
