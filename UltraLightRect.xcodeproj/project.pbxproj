@@ -13,8 +13,10 @@
 		F355695F1CD97F3C00FD7DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F355695D1CD97F3C00FD7DB7 /* Main.storyboard */; };
 		F35569611CD97F3C00FD7DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35569601CD97F3C00FD7DB7 /* Assets.xcassets */; };
 		F35569641CD97F3C00FD7DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35569621CD97F3C00FD7DB7 /* LaunchScreen.storyboard */; };
-		F355696F1CD97F3D00FD7DB7 /* UltraLightRectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F355696E1CD97F3D00FD7DB7 /* UltraLightRectTests.m */; };
 		F355697A1CD97F3D00FD7DB7 /* UltraLightRectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F35569791CD97F3D00FD7DB7 /* UltraLightRectUITests.m */; };
+		F35569891CD9802B00FD7DB7 /* ULRRectHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F35569881CD9802B00FD7DB7 /* ULRRectHelper.m */; };
+		F38FFC6A1CDBD1AB00E47062 /* ULRectHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FFC691CDBD1AB00E47062 /* ULRectHelperTests.m */; };
+		F3A7EF941CD9AB66008F8153 /* ULRRectSwiftHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A7EF931CD9AB66008F8153 /* ULRRectSwiftHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +48,15 @@
 		F35569631CD97F3C00FD7DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F35569651CD97F3C00FD7DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F355696A1CD97F3D00FD7DB7 /* UltraLightRectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltraLightRectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F355696E1CD97F3D00FD7DB7 /* UltraLightRectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UltraLightRectTests.m; sourceTree = "<group>"; };
 		F35569701CD97F3D00FD7DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F35569751CD97F3D00FD7DB7 /* UltraLightRectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltraLightRectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35569791CD97F3D00FD7DB7 /* UltraLightRectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UltraLightRectUITests.m; sourceTree = "<group>"; };
 		F355697B1CD97F3D00FD7DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35569871CD9802B00FD7DB7 /* ULRRectHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULRRectHelper.h; sourceTree = "<group>"; };
+		F35569881CD9802B00FD7DB7 /* ULRRectHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULRRectHelper.m; sourceTree = "<group>"; };
+		F38FFC691CDBD1AB00E47062 /* ULRectHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULRectHelperTests.m; sourceTree = "<group>"; };
+		F3A7EF921CD9AB66008F8153 /* UltraLightRect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UltraLightRect-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		F3A7EF931CD9AB66008F8153 /* ULRRectSwiftHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ULRRectSwiftHelper.swift; path = ../ULRRectSwiftHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				F35569581CD97F3C00FD7DB7 /* AppDelegate.m */,
 				F355695A1CD97F3C00FD7DB7 /* ViewController.h */,
 				F355695B1CD97F3C00FD7DB7 /* ViewController.m */,
+				F35569871CD9802B00FD7DB7 /* ULRRectHelper.h */,
+				F35569881CD9802B00FD7DB7 /* ULRRectHelper.m */,
+				F3A7EF931CD9AB66008F8153 /* ULRRectSwiftHelper.swift */,
 				F355695D1CD97F3C00FD7DB7 /* Main.storyboard */,
 				F35569601CD97F3C00FD7DB7 /* Assets.xcassets */,
 				F35569621CD97F3C00FD7DB7 /* LaunchScreen.storyboard */,
@@ -117,6 +126,7 @@
 		F35569541CD97F3C00FD7DB7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F3A7EF921CD9AB66008F8153 /* UltraLightRect-Bridging-Header.h */,
 				F35569551CD97F3C00FD7DB7 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -125,7 +135,7 @@
 		F355696D1CD97F3D00FD7DB7 /* UltraLightRectTests */ = {
 			isa = PBXGroup;
 			children = (
-				F355696E1CD97F3D00FD7DB7 /* UltraLightRectTests.m */,
+				F38FFC691CDBD1AB00E47062 /* ULRectHelperTests.m */,
 				F35569701CD97F3D00FD7DB7 /* Info.plist */,
 			);
 			path = UltraLightRectTests;
@@ -270,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35569891CD9802B00FD7DB7 /* ULRRectHelper.m in Sources */,
+				F3A7EF941CD9AB66008F8153 /* ULRRectSwiftHelper.swift in Sources */,
 				F355695C1CD97F3C00FD7DB7 /* ViewController.m in Sources */,
 				F35569591CD97F3C00FD7DB7 /* AppDelegate.m in Sources */,
 				F35569561CD97F3C00FD7DB7 /* main.m in Sources */,
@@ -280,7 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F355696F1CD97F3D00FD7DB7 /* UltraLightRectTests.m in Sources */,
+				F38FFC6A1CDBD1AB00E47062 /* ULRectHelperTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +425,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = UltraLightRect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vexacore.UltraLightRect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UltraLightRect-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -424,10 +441,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = UltraLightRect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vexacore.UltraLightRect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UltraLightRect-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -498,6 +519,7 @@
 				F35569801CD97F3D00FD7DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F35569811CD97F3D00FD7DB7 /* Build configuration list for PBXNativeTarget "UltraLightRectTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +528,7 @@
 				F35569831CD97F3D00FD7DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F35569841CD97F3D00FD7DB7 /* Build configuration list for PBXNativeTarget "UltraLightRectUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +537,7 @@
 				F35569861CD97F3D00FD7DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
