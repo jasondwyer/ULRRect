@@ -21,17 +21,19 @@ import UIKit
         }
     }
     
-    func adaptiveFontSized(size: Int)->Int {
+    func adaptiveFontSized(size: Int)->CGFloat {
         if self.isPhone() {
-            return size;
+            return CGFloat(size);
         }
         else {
-            return Int(Double(size) * 1.8);
+            return CGFloat(Double(size) * 1.8);
         }
     }
     
     //convert percent values to length based on screen size
     private func percentToLength(percent: Double, isForWidth: Bool)->CGFloat {
+        let label = UILabel.init(frame: self.quickFrameWithXPoint(10, YPoint: 10, Width: 10, Height: 10))
+        label.font = UIFont.systemFontOfSize(self.adaptiveFontSized(32))
         if isForWidth {
             let screenSize: CGRect = UIScreen.mainScreen().bounds
             return screenSize.width * (CGFloat(percent) / 100)
