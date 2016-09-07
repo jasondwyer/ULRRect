@@ -89,7 +89,7 @@
     
     UILabel *deviceLabel = [[UILabel alloc] initWithFrame:[self.rectHelper quickFrameWithXPoint:9.0 YPoint:7.2 Width:70.0 Height:6.0]];
     deviceLabel.backgroundColor = [UIColor redColor];
-    deviceLabel.font = [UIFont systemFontOfSize:[self.rectHelper adaptiveFontSized:32]];
+    deviceLabel.font = [UIFont systemFontOfSize:[self.swiftHelper adaptiveFontSized:32]];
     deviceLabel.textColor = [UIColor whiteColor];
     deviceLabel.textAlignment = NSTextAlignmentCenter;
     if ([self.rectHelper isPhone]) {
@@ -100,7 +100,6 @@
     }
     [self.view addSubview:deviceLabel];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
